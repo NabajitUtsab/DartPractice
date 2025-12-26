@@ -22,6 +22,10 @@ void main(){
   // print(pos || neg);
 
   var cityList = ["Chittagong" , "Dhaka"];
+  cityList.add ("Rajshahi");
+  cityList.insert(0, "Mymensingh");
 
-  print(cityList[1]);
+  print(cityList);
+
+  print(cityList.elementAt(3));
 }
